@@ -157,7 +157,7 @@ exports.init = function (grunt) {
       var message,
       rawResults;
 
-	console.log("JLEE: " + args);
+      console.log("JLEE: " + args);
 
       if (err && err.code !== 1 && err.code !== 2 && err.code !== 65) {
         if (err.code === 127) {
